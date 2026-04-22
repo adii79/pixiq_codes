@@ -422,7 +422,7 @@ static void _st7789_set_rotation(struct st7789_dev *dev, uint8_t rot)
  *
  *   Parameters come from lcd_print_config_t – see display.h for field docs.
  */
-void lcd_print(st7789_handle_t dev, const lcd_print_config_t *cfg)
+ void lcd_print(st7789_handle_t dev, const lcd_print_config_t *cfg)
 {
     if (!dev || !cfg) return;
 
